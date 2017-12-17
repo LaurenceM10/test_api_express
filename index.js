@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app
-  .get("/tarea", (req, res) => {
+  .get("/task", (req, res) => {
     res.send({ content: "Soy steven" });
   })
   .get("/facebook", (req, res) => {
